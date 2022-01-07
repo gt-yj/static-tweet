@@ -14,7 +14,7 @@ const H2 = components.h2;
 const Hr = components.hr;
 
 export async function getStaticProps() {
-  const tweet = await fetchTweetAst('1249937011068129280');
+  const tweet = await fetchTweetAst('1471372204671582209');
 
   return { props: { tweet } };
 }
